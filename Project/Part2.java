@@ -63,8 +63,8 @@ public class Part2 {
 //            System.out.println("Final State is locked");
 //        }
         if (state == 0) {
-            System.out.println("symbols counted :" + counter);
-            System.out.println("Final State is unlocked");
+            System.out.println("counter :" + counter);
+            System.out.println("Unlocked");
 //        }
         }
         }

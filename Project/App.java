@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
         // part one kekw
         Scanner scan = new Scanner(System.in);
-        System.out.println("enter id:");
+        System.out.println("enter id of 5 digits:");
         String id = scan.next();
 
         // asks for an id
@@ -30,10 +30,10 @@ public class App {
         // if state is 1 then it is locked as final
         // if state is 0 then it is unlocked as final
         if (state == 1) {
-            System.out.println("Final State is locked");
+            System.out.println("Locked");
         }
         if (state == 0) {
-            System.out.println("Final State is unlocked");
+            System.out.println("Unlocked");
         }
     }
 
