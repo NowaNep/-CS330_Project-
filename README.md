@@ -7,14 +7,19 @@ Part1.jar is a program that takes in a five digit integer and an input string of
 
 part2.jar is the next program that simulates the intruder that doesnt have any idea on how long the access string is so decides to brute force the the program with random string testing. the data being on how long the string is used to get it unlocked
 
-Both programs has been made in Java and is both a jar execute, to execute you would need to make sure the current directory is on folder where the .jar files are placed. then use the command
+Running the program
 
-"java -jar 'file name'"
+Gradle building has been done already so no need to use gradle build
 
-To run the file
+Both programs has been made in Java and is both a jar execute, to execute you would need to make sure the current directory is on folder where the .jar files are placed by using the cd command on your terminal.
 
-It has been tested on both Visual Studio Code IDE and on windows 10 command prompt
+then use "java -jar part1.jar" for part one to be tested
+and "java -jar part2.jar" for part two to be tested
 
+if you do wish to use gradle
+you can run "gradle clean" to "gradle shadowJar"
+where clean removes the build file and shadowJar remakes the file
+However. Gradle run is unable to make the code run for some unknown reason.
 
 Part 2: 10 tests are done with id of 83918 to ensure that id is same every time
 
